@@ -1,0 +1,10 @@
+/* 
+  InfoPlist.strings
+  FreewheelinApp
+
+  Created by Dannian Park on 2021/05/18.
+  
+*/
+"NSPhotoLibraryUsageDescription" = "백그라운드 이미지를 불러오기 위해 권한을 요청합니다.";
+"NSCameraUsageDescription" = " - ";
+"NSPhotoLibraryAddUsageDescription" = "수정된 이미지를 저장하기 위해서 권한을 요청합니다.";

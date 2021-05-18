@@ -1,0 +1,33 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '14.1'
+
+def shared_pods
+  
+  use_frameworks!
+  # more Framework in here
+  # Swift Lint(for coding conventions)
+  pod 'SwiftLint'
+
+  # Realm(DB)
+  pod 'RealmSwift', git:'https://github.com/realm/realm-cocoa.git',branch:'master',submodules:true
+  pod 'Realm', git:'https://github.com/realm/realm-cocoa.git',branch:'master',submodules:true
+
+end 
+
+target 'FreewheelinApp' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  
+  shared_pods
+
+  # Pods for FreewheelinApp
+
+  target 'FreewheelinAppTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'FreewheelinAppUITests' do
+    # Pods for testing
+  end
+
+end

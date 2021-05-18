@@ -1,0 +1,10 @@
+/* 
+  InfoPlist.strings
+  FreewheelinApp
+
+  Created by Dannian Park on 2021/05/18.
+  
+*/
+"NSPhotoLibraryUsageDescription" = "Using Photo library for background image";
+"NSCameraUsageDescription" = " - ";
+"NSPhotoLibraryAddUsageDescription" = "Permission request for save edited image";
