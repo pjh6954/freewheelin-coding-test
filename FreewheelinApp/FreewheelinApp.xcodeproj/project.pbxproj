@@ -81,6 +81,8 @@
 		72CEF65B26538FBE0024263B /* LoadPastDatasViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LoadPastDatasViewController.storyboard; sourceTree = "<group>"; };
 		72CEF65D26539A300024263B /* StoryboardCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryboardCollectionViewCell.swift; sourceTree = "<group>"; };
 		72CEF65E26539A300024263B /* StoryboardCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StoryboardCollectionViewCell.xib; sourceTree = "<group>"; };
+		72CEF6802653B0570024263B /* FreewheelinApp copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "FreewheelinApp copy-Info.plist"; path = "/Users/dannian/Programming/GitProj/freewheelin-coding-test/FreewheelinApp/FreewheelinApp copy-Info.plist"; sourceTree = "<absolute>"; };
+		72CEF6812653B0580024263B /* StoryboardCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = StoryboardCollectionViewCell.xib; path = "Resources-iPad/FreewheelinApp/StoryboardVersion/StoryboardCollectionViewCell.xib"; sourceTree = "<group>"; };
 		8EA6517BB287A6D3C592BA3F /* Pods_FreewheelinAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FreewheelinAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A02C8ECBBCDDC84CBBDFCA9A /* Pods-FreewheelinApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FreewheelinApp.release.xcconfig"; path = "Target Support Files/Pods-FreewheelinApp/Pods-FreewheelinApp.release.xcconfig"; sourceTree = "<group>"; };
 		B8D085115037D4148AC65A62 /* Pods-FreewheelinApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FreewheelinApp.debug.xcconfig"; path = "Target Support Files/Pods-FreewheelinApp/Pods-FreewheelinApp.debug.xcconfig"; sourceTree = "<group>"; };
@@ -143,12 +145,14 @@
 		72CEF5FD26533AD00024263B = {
 			isa = PBXGroup;
 			children = (
+				72CEF67F2653B0570024263B /* Resources-iPad */,
 				72CEF60826533AD00024263B /* FreewheelinApp */,
 				72CEF61F26533AD10024263B /* FreewheelinAppTests */,
 				72CEF62A26533AD10024263B /* FreewheelinAppUITests */,
 				72CEF60726533AD00024263B /* Products */,
 				67745AC90295AFE614334201 /* Pods */,
 				3064DBFAE941B197A27CF669 /* Frameworks */,
+				72CEF6802653B0570024263B /* FreewheelinApp copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -260,6 +264,14 @@
 				72CEF65526537DFB0024263B /* Localizable.strings */,
 			);
 			path = supportFiles;
+			sourceTree = "<group>";
+		};
+		72CEF67F2653B0570024263B /* Resources-iPad */ = {
+			isa = PBXGroup;
+			children = (
+				72CEF6812653B0580024263B /* StoryboardCollectionViewCell.xib */,
+			);
+			name = "Resources-iPad";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

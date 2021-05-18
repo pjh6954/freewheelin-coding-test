@@ -18,7 +18,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         // realm migraion setting
         realmMigration(1)
-        
+        if UIDevice().userInterfaceIdiom == .phone {
+            
+        } else {
+            
+        }
         return true
     }
 

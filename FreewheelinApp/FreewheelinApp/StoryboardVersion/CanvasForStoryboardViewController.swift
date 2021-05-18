@@ -23,6 +23,7 @@ class CanvasForStoryboardViewController: UIViewController {
     // 그리는 도구들과 관련된 설정값
     var penColor: UIColor = .black // 색상을 바꾸는 기능이 있을 경우 편하게 바꿀 수 있도록 하기 위함.
     var penWidht: CGFloat = 2.0 // 그리는 펜의 크기를 변경할 경우 편하게 바꿀 수 있도록 하기 위함
+    var eraseWidth : CGFloat = 10.0 // 지우는 크기를 변경할 경우 편하게 하기 위함
     // drawing 관련 status 해당하는 변수들
     var isDrawing: Bool = false // 새로운 이미지(라인)객체를 그리게되는 경우
     // var isPenDrawing: Bool = false // pen을 눌러서 지우는 상태인 경우.
@@ -96,7 +97,11 @@ class CanvasForStoryboardViewController: UIViewController {
             context.setBlendMode(mode)
         }
         context.setLineCap(.round)
-        context.setLineWidth(penWidht)
+        if withDrawType == .erase {
+            context.setLineWidth(eraseWidth)
+        }else if withDrawType == .pen{
+            context.setLineWidth(penWidht)
+        }
         context.setStrokeColor(penColor.cgColor)
         context.move(to: from)
         context.addLine(to: to)
