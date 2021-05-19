@@ -7,4 +7,4 @@
 * [SwiftUI embedin Storyboard](https://medium.com/@max.codes/use-swiftui-in-uikit-view-controllers-with-uihostingcontroller-8fe68dfc523b)
 
 
-SwiftUI를 이론으로 조금씩 공부만 하고있다가 이번에 처음으로 제대로 만들어봤습니다. 모자란 부분이 많을 것 같아서 일단 Storyboard로 기능을 구현하고 해당 기능에 맞게 SwiftUI를 이용하여 구현하는 식으로 했습니다.
+SwiftUI를 이론으로 조금씩 공부만 하고있다가 이번에 처음으로 제대로 만들어봤습니다. SwiftUI로 만들기에는 제 실력에 모자란 부분이 많아서 일단 Storyboard로 기능을 구현하고 해당 기능에 맞게 SwiftUI를 이용하여 구현하는 식으로 했습니다.
