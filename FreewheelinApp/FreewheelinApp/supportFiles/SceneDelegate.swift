@@ -19,10 +19,15 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         self.window = UIWindow(windowScene: windowScene)
 
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        guard let rootVC = storyboard.instantiateViewController(withIdentifier: "RootViewController") as? RootViewController else {
+            return
+        }
+        /*
         guard let rootVC = storyboard.instantiateViewController(identifier: "CanvasStorboardVC") as? CanvasForStoryboardViewController else {
             print("ViewController not found")
             return
         }
+        */
         let rootNC = UINavigationController(rootViewController: rootVC)
         self.window?.rootViewController = rootNC
         self.window?.makeKeyAndVisible()

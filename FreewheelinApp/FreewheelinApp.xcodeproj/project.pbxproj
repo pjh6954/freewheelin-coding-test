@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		729A90462654E01900ED185D /* CanvasViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 729A90452654E01900ED185D /* CanvasViewModel.swift */; };
+		72BAEAC62653E76B00A6B5E4 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72BAEAC52653E76B00A6B5E4 /* RootViewController.swift */; };
+		72BAEAC82653EB1400A6B5E4 /* CanvasForSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72BAEAC72653EB1400A6B5E4 /* CanvasForSwiftUIView.swift */; };
+		72BAEACA2653EBCA00A6B5E4 /* CanvasSwiftUIContainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72BAEAC92653EBCA00A6B5E4 /* CanvasSwiftUIContainViewController.swift */; };
 		72CEF60A26533AD00024263B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72CEF60926533AD00024263B /* AppDelegate.swift */; };
 		72CEF60C26533AD00024263B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72CEF60B26533AD00024263B /* SceneDelegate.swift */; };
 		72CEF60E26533AD00024263B /* CanvasForStoryboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72CEF60D26533AD00024263B /* CanvasForStoryboardViewController.swift */; };
@@ -15,7 +19,6 @@
 		72CEF61626533AD10024263B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72CEF61426533AD10024263B /* LaunchScreen.storyboard */; };
 		72CEF62126533AD10024263B /* FreewheelinAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72CEF62026533AD10024263B /* FreewheelinAppTests.swift */; };
 		72CEF62C26533AD10024263B /* FreewheelinAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72CEF62B26533AD10024263B /* FreewheelinAppUITests.swift */; };
-		72CEF63A26533BDC0024263B /* CanvasForSwiftUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72CEF63926533BDC0024263B /* CanvasForSwiftUIViewController.swift */; };
 		72CEF63D265347800024263B /* DrawingObjectsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72CEF63C265347800024263B /* DrawingObjectsModel.swift */; };
 		72CEF643265364330024263B /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72CEF642265364330024263B /* DatabaseManager.swift */; };
 		72CEF646265366250024263B /* DrawingDatas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72CEF645265366250024263B /* DrawingDatas.swift */; };
@@ -53,6 +56,10 @@
 		000E881B67C33FA745078473 /* Pods-FreewheelinApp-FreewheelinAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FreewheelinApp-FreewheelinAppUITests.release.xcconfig"; path = "Target Support Files/Pods-FreewheelinApp-FreewheelinAppUITests/Pods-FreewheelinApp-FreewheelinAppUITests.release.xcconfig"; sourceTree = "<group>"; };
 		0D015119E63AFAB42AB4C876 /* Pods-FreewheelinAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FreewheelinAppTests.release.xcconfig"; path = "Target Support Files/Pods-FreewheelinAppTests/Pods-FreewheelinAppTests.release.xcconfig"; sourceTree = "<group>"; };
 		47555C8B3CCB81AB19B9C586 /* Pods_FreewheelinApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FreewheelinApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		729A90452654E01900ED185D /* CanvasViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasViewModel.swift; sourceTree = "<group>"; };
+		72BAEAC52653E76B00A6B5E4 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		72BAEAC72653EB1400A6B5E4 /* CanvasForSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasForSwiftUIView.swift; sourceTree = "<group>"; };
+		72BAEAC92653EBCA00A6B5E4 /* CanvasSwiftUIContainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasSwiftUIContainViewController.swift; sourceTree = "<group>"; };
 		72CEF60626533AD00024263B /* FreewheelinApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FreewheelinApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		72CEF60926533AD00024263B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		72CEF60B26533AD00024263B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -67,7 +74,6 @@
 		72CEF62726533AD10024263B /* FreewheelinAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FreewheelinAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		72CEF62B26533AD10024263B /* FreewheelinAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreewheelinAppUITests.swift; sourceTree = "<group>"; };
 		72CEF62D26533AD10024263B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		72CEF63926533BDC0024263B /* CanvasForSwiftUIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasForSwiftUIViewController.swift; sourceTree = "<group>"; };
 		72CEF63C265347800024263B /* DrawingObjectsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingObjectsModel.swift; sourceTree = "<group>"; };
 		72CEF642265364330024263B /* DatabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
 		72CEF645265366250024263B /* DrawingDatas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingDatas.swift; sourceTree = "<group>"; };
@@ -201,7 +207,10 @@
 		72CEF63E2653628A0024263B /* StoryboardVersion */ = {
 			isa = PBXGroup;
 			children = (
+				72BAEAC52653E76B00A6B5E4 /* RootViewController.swift */,
 				72CEF60D26533AD00024263B /* CanvasForStoryboardViewController.swift */,
+				729A90452654E01900ED185D /* CanvasViewModel.swift */,
+				72BAEAC92653EBCA00A6B5E4 /* CanvasSwiftUIContainViewController.swift */,
 				72CEF65926538F920024263B /* LoadPastDatasViewController.swift */,
 				72CEF65B26538FBE0024263B /* LoadPastDatasViewController.storyboard */,
 				72CEF65D26539A300024263B /* StoryboardCollectionViewCell.swift */,
@@ -213,7 +222,7 @@
 		72CEF63F265362940024263B /* SwiftUIVersion */ = {
 			isa = PBXGroup;
 			children = (
-				72CEF63926533BDC0024263B /* CanvasForSwiftUIViewController.swift */,
+				72BAEAC72653EB1400A6B5E4 /* CanvasForSwiftUIView.swift */,
 			);
 			path = SwiftUIVersion;
 			sourceTree = "<group>";
@@ -535,10 +544,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				72CEF63A26533BDC0024263B /* CanvasForSwiftUIViewController.swift in Sources */,
 				72CEF646265366250024263B /* DrawingDatas.swift in Sources */,
+				72BAEAC82653EB1400A6B5E4 /* CanvasForSwiftUIView.swift in Sources */,
+				72BAEACA2653EBCA00A6B5E4 /* CanvasSwiftUIContainViewController.swift in Sources */,
+				72BAEAC62653E76B00A6B5E4 /* RootViewController.swift in Sources */,
 				72CEF63D265347800024263B /* DrawingObjectsModel.swift in Sources */,
 				72CEF643265364330024263B /* DatabaseManager.swift in Sources */,
+				729A90462654E01900ED185D /* CanvasViewModel.swift in Sources */,
 				72CEF60E26533AD00024263B /* CanvasForStoryboardViewController.swift in Sources */,
 				72CEF60A26533AD00024263B /* AppDelegate.swift in Sources */,
 				72CEF65A26538F920024263B /* LoadPastDatasViewController.swift in Sources */,
@@ -670,7 +682,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -726,7 +738,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -743,7 +755,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = STRQXD44ML;
+				DEVELOPMENT_TEAM = USY8DR6535;
 				INFOPLIST_FILE = FreewheelinApp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -764,7 +776,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = STRQXD44ML;
+				DEVELOPMENT_TEAM = USY8DR6535;
 				INFOPLIST_FILE = FreewheelinApp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (

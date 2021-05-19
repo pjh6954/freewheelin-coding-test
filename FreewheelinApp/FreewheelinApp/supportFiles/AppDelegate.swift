@@ -9,7 +9,7 @@ import UIKit
 
 import RealmSwift
 
-@main
+@UIApplicationMain // @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
