@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		729A90462654E01900ED185D /* CanvasViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 729A90452654E01900ED185D /* CanvasViewModel.swift */; };
+		729A904B2654FA9B00ED185D /* CanvasSwiftUIViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 729A904A2654FA9B00ED185D /* CanvasSwiftUIViewModel.swift */; };
+		729A904D2654FF0400ED185D /* SwiftUIDrawing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 729A904C2654FF0400ED185D /* SwiftUIDrawing.swift */; };
+		729A904F2655007D00ED185D /* DrawingArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 729A904E2655007D00ED185D /* DrawingArea.swift */; };
+		729A9051265502A400ED185D /* DrawingNaviArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 729A9050265502A400ED185D /* DrawingNaviArea.swift */; };
 		72BAEAC62653E76B00A6B5E4 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72BAEAC52653E76B00A6B5E4 /* RootViewController.swift */; };
 		72BAEAC82653EB1400A6B5E4 /* CanvasForSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72BAEAC72653EB1400A6B5E4 /* CanvasForSwiftUIView.swift */; };
 		72BAEACA2653EBCA00A6B5E4 /* CanvasSwiftUIContainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72BAEAC92653EBCA00A6B5E4 /* CanvasSwiftUIContainViewController.swift */; };
@@ -57,6 +61,10 @@
 		0D015119E63AFAB42AB4C876 /* Pods-FreewheelinAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FreewheelinAppTests.release.xcconfig"; path = "Target Support Files/Pods-FreewheelinAppTests/Pods-FreewheelinAppTests.release.xcconfig"; sourceTree = "<group>"; };
 		47555C8B3CCB81AB19B9C586 /* Pods_FreewheelinApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FreewheelinApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		729A90452654E01900ED185D /* CanvasViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasViewModel.swift; sourceTree = "<group>"; };
+		729A904A2654FA9B00ED185D /* CanvasSwiftUIViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasSwiftUIViewModel.swift; sourceTree = "<group>"; };
+		729A904C2654FF0400ED185D /* SwiftUIDrawing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIDrawing.swift; sourceTree = "<group>"; };
+		729A904E2655007D00ED185D /* DrawingArea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingArea.swift; sourceTree = "<group>"; };
+		729A9050265502A400ED185D /* DrawingNaviArea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingNaviArea.swift; sourceTree = "<group>"; };
 		72BAEAC52653E76B00A6B5E4 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
 		72BAEAC72653EB1400A6B5E4 /* CanvasForSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasForSwiftUIView.swift; sourceTree = "<group>"; };
 		72BAEAC92653EBCA00A6B5E4 /* CanvasSwiftUIContainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasSwiftUIContainViewController.swift; sourceTree = "<group>"; };
@@ -148,6 +156,30 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		729A90472654F7FE00ED185D /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				729A90452654E01900ED185D /* CanvasViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		729A90482654FA5600ED185D /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				729A904A2654FA9B00ED185D /* CanvasSwiftUIViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		729A90492654FA6000ED185D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				729A904C2654FF0400ED185D /* SwiftUIDrawing.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		72CEF5FD26533AD00024263B = {
 			isa = PBXGroup;
 			children = (
@@ -176,7 +208,6 @@
 			isa = PBXGroup;
 			children = (
 				72CEF647265377DD0024263B /* Utils */,
-				72CEF641265362B00024263B /* Models */,
 				72CEF640265362A60024263B /* Realm */,
 				72CEF63F265362940024263B /* SwiftUIVersion */,
 				72CEF63E2653628A0024263B /* StoryboardVersion */,
@@ -207,9 +238,10 @@
 		72CEF63E2653628A0024263B /* StoryboardVersion */ = {
 			isa = PBXGroup;
 			children = (
+				72CEF641265362B00024263B /* Models */,
+				729A90472654F7FE00ED185D /* ViewModel */,
 				72BAEAC52653E76B00A6B5E4 /* RootViewController.swift */,
 				72CEF60D26533AD00024263B /* CanvasForStoryboardViewController.swift */,
-				729A90452654E01900ED185D /* CanvasViewModel.swift */,
 				72BAEAC92653EBCA00A6B5E4 /* CanvasSwiftUIContainViewController.swift */,
 				72CEF65926538F920024263B /* LoadPastDatasViewController.swift */,
 				72CEF65B26538FBE0024263B /* LoadPastDatasViewController.storyboard */,
@@ -222,7 +254,11 @@
 		72CEF63F265362940024263B /* SwiftUIVersion */ = {
 			isa = PBXGroup;
 			children = (
+				729A90492654FA6000ED185D /* Model */,
+				729A90482654FA5600ED185D /* ViewModel */,
 				72BAEAC72653EB1400A6B5E4 /* CanvasForSwiftUIView.swift */,
+				729A9050265502A400ED185D /* DrawingNaviArea.swift */,
+				729A904E2655007D00ED185D /* DrawingArea.swift */,
 			);
 			path = SwiftUIVersion;
 			sourceTree = "<group>";
@@ -545,11 +581,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				72CEF646265366250024263B /* DrawingDatas.swift in Sources */,
+				729A9051265502A400ED185D /* DrawingNaviArea.swift in Sources */,
+				729A904B2654FA9B00ED185D /* CanvasSwiftUIViewModel.swift in Sources */,
 				72BAEAC82653EB1400A6B5E4 /* CanvasForSwiftUIView.swift in Sources */,
 				72BAEACA2653EBCA00A6B5E4 /* CanvasSwiftUIContainViewController.swift in Sources */,
 				72BAEAC62653E76B00A6B5E4 /* RootViewController.swift in Sources */,
 				72CEF63D265347800024263B /* DrawingObjectsModel.swift in Sources */,
+				729A904D2654FF0400ED185D /* SwiftUIDrawing.swift in Sources */,
 				72CEF643265364330024263B /* DatabaseManager.swift in Sources */,
+				729A904F2655007D00ED185D /* DrawingArea.swift in Sources */,
 				729A90462654E01900ED185D /* CanvasViewModel.swift in Sources */,
 				72CEF60E26533AD00024263B /* CanvasForStoryboardViewController.swift in Sources */,
 				72CEF60A26533AD00024263B /* AppDelegate.swift in Sources */,

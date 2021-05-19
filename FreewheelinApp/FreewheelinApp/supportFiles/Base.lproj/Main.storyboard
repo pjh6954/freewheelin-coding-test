@@ -16,11 +16,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="s0r-m6-Xb5">
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="s0r-m6-Xb5">
                                 <rect key="frame" x="0.0" y="44" width="428" height="50"/>
                                 <subviews>
-                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="VT5-ZB-YkX">
-                                        <rect key="frame" x="0.0" y="0.0" width="110" height="50"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="VT5-ZB-YkX">
+                                        <rect key="frame" x="0.0" y="0.0" width="105" height="50"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AHF-Tx-gJM">
                                                 <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
@@ -30,7 +30,7 @@
                                                 <state key="normal" title="SAVE"/>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x65-fL-uDE">
-                                                <rect key="frame" x="60" y="0.0" width="50" height="50"/>
+                                                <rect key="frame" x="55" y="0.0" width="50" height="50"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="x65-fL-uDE" secondAttribute="height" multiplier="1:1" id="ZPP-Uv-fAx"/>
                                                 </constraints>
@@ -39,10 +39,10 @@
                                         </subviews>
                                     </stackView>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4ES-HN-x2q">
-                                        <rect key="frame" x="110" y="0.0" width="98" height="50"/>
+                                        <rect key="frame" x="115" y="0.0" width="83" height="50"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UHI-GR-wKk">
-                                                <rect key="frame" x="48" y="0.0" width="50" height="50"/>
+                                                <rect key="frame" x="33" y="0.0" width="50" height="50"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="UHI-GR-wKk" secondAttribute="height" multiplier="1:1" id="R5V-um-YdS"/>
                                                 </constraints>
@@ -59,8 +59,8 @@
                                             <constraint firstItem="UHI-GR-wKk" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="4ES-HN-x2q" secondAttribute="leading" id="lBK-42-an6"/>
                                         </constraints>
                                     </view>
-                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="IIg-WA-Xa4">
-                                        <rect key="frame" x="208" y="0.0" width="110" height="50"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="IIg-WA-Xa4">
+                                        <rect key="frame" x="208" y="0.0" width="105" height="50"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H31-2B-rLg">
                                                 <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
@@ -70,7 +70,7 @@
                                                 <state key="normal" image="arrow.backward" catalog="system"/>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B6x-W6-GSp">
-                                                <rect key="frame" x="60" y="0.0" width="50" height="50"/>
+                                                <rect key="frame" x="55" y="0.0" width="50" height="50"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="B6x-W6-GSp" secondAttribute="height" multiplier="1:1" id="KM6-cq-ac0"/>
                                                 </constraints>
@@ -78,8 +78,8 @@
                                             </button>
                                         </subviews>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="gxt-Ez-1o1">
-                                        <rect key="frame" x="318" y="0.0" width="110" height="50"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="gxt-Ez-1o1">
+                                        <rect key="frame" x="323" y="0.0" width="105" height="50"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X6r-sp-jlO">
                                                 <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
@@ -89,7 +89,7 @@
                                                 <state key="normal" title="PEN"/>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B6r-Ay-xVs">
-                                                <rect key="frame" x="60" y="0.0" width="50" height="50"/>
+                                                <rect key="frame" x="55" y="0.0" width="50" height="50"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="B6r-Ay-xVs" secondAttribute="height" multiplier="1:1" id="jUy-ot-FfR"/>
                                                 </constraints>
@@ -136,6 +136,13 @@
                         <outlet property="buttonSave" destination="AHF-Tx-gJM" id="ULW-lJ-FlV"/>
                         <outlet property="buttonUndo" destination="H31-2B-rLg" id="al7-Bh-tbo"/>
                         <outlet property="canvas" destination="sqL-lf-ziA" id="ndZ-2v-EtG"/>
+                        <outletCollection property="buttonsArr" destination="AHF-Tx-gJM" collectionClass="NSMutableArray" id="3Pm-aS-4ft"/>
+                        <outletCollection property="buttonsArr" destination="x65-fL-uDE" collectionClass="NSMutableArray" id="q4M-oZ-Rc6"/>
+                        <outletCollection property="buttonsArr" destination="UHI-GR-wKk" collectionClass="NSMutableArray" id="pJ9-sB-WeM"/>
+                        <outletCollection property="buttonsArr" destination="H31-2B-rLg" collectionClass="NSMutableArray" id="XFe-R5-zpv"/>
+                        <outletCollection property="buttonsArr" destination="B6x-W6-GSp" collectionClass="NSMutableArray" id="vlm-OM-jJB"/>
+                        <outletCollection property="buttonsArr" destination="X6r-sp-jlO" collectionClass="NSMutableArray" id="EZd-8o-kKu"/>
+                        <outletCollection property="buttonsArr" destination="B6r-Ay-xVs" collectionClass="NSMutableArray" id="YR2-8Z-Zxf"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

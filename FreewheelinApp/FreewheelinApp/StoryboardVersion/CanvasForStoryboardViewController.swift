@@ -22,6 +22,7 @@ class CanvasForStoryboardViewController: UIViewController, CanvasForStoryboardVi
     @IBOutlet weak var buttonRedo: UIButton!
     @IBOutlet weak var buttonPen: UIButton!
     @IBOutlet weak var buttonErase: UIButton!
+    @IBOutlet var buttonsArr: Array<UIButton>?
     // image picker(album에서 이미지 갖고 오기)
     var imagePicker = UIImagePickerController()
     // drawing 관련 status 해당하는 변수들
@@ -37,6 +38,13 @@ class CanvasForStoryboardViewController: UIViewController, CanvasForStoryboardVi
         buttonRedo.addTarget(self, action: #selector(actionBtnRedo(_:)), for: .touchUpInside)
         buttonPen.addTarget(self, action: #selector(actionBtnPen(_:)), for: .touchUpInside)
         buttonErase.addTarget(self, action: #selector(actionBtnErase(_:)), for: .touchUpInside)
+        buttonsArr?.forEach({ element in
+            element.layer.borderWidth = 1
+            element.layer.borderColor = UIColor.gray.cgColor
+            element.layer.cornerRadius = 5
+            element.backgroundColor = UIColor.lightGray
+            element.layer.masksToBounds = true
+        })
         config()
     }
     override func viewWillAppear(_ animated: Bool) {

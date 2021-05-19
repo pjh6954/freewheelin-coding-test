@@ -42,13 +42,13 @@ class DrawingDatas: Object {
 class DrawingLine: Object {
     /// 고유 식별자 - 삭제 수정용
     @objc dynamic var id : String = UUID().uuidString
-    @objc dynamic private var typeData : String = DrawingType.noType.rawValue
+    @objc dynamic private var typeData : String = DrawingType.noType.toString()//DrawingType.noType.rawValue
     var type: DrawingType {
         get {
-            return DrawingType(rawValue: typeData) ?? .noType
+            return DrawingType(rawValue: DrawingType.toInt(str: typeData)) ?? .noType
         }
         set {
-            typeData = newValue.rawValue
+            typeData = newValue.toString()
         }
     }
     var drawingObjects: List<DrawingObject> = List<DrawingObject>()
